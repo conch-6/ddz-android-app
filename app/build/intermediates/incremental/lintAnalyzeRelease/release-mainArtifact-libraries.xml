@@ -1,0 +1,10 @@
+<libraries>
+  <library
+      name="org.java-websocket:Java-WebSocket:1.5.4@jar"
+      jars="/data/data/com.termux/files/home/.gradle/caches/modules-2/files-2.1/org.java-websocket/Java-WebSocket/1.5.4/58242a8c9a30ecf23548761a7d6c08735c0eaec3/Java-WebSocket-1.5.4.jar"
+      resolved="org.java-websocket:Java-WebSocket:1.5.4"/>
+  <library
+      name="org.slf4j:slf4j-api:2.0.6@jar"
+      jars="/data/data/com.termux/files/home/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.6/88c40d8b4f33326f19a7d3c0aaf2c7e8721d4953/slf4j-api-2.0.6.jar"
+      resolved="org.slf4j:slf4j-api:2.0.6"/>
+</libraries>

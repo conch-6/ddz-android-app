@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.1.0" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.example.perfect.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <entry
+            name="model"
+            string="drawable[ic_launcher(U)],id[webview(U)],layout[main(U)],string[app_name(U),hello_world(D)],style[AppTheme(U)];;;;"/>
+        <location id="R.string.hello_world"
+            file="${:app*release*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="5"
+            column="13"
+            startOffset="105"
+            endLine="5"
+            endColumn="31"
+            endOffset="123"/>
+    </map>
+
+</incidents>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 去掉 ActionBar/标题栏，保留系统状态栏和导航栏 -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <item name="android:windowFullscreen">false</item>
+    </style>
+</resources>

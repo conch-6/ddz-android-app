@@ -1,0 +1,7 @@
+com.example.perfect.app-pngs-0 /data/data/com.termux/files/home/MyPerfect/app/build/generated/res/pngs/debug
+com.example.perfect.app-resValues-1 /data/data/com.termux/files/home/MyPerfect/app/build/generated/res/resValues/debug
+com.example.perfect.app-packageDebugResources-2 /data/data/com.termux/files/home/MyPerfect/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.perfect.app-packageDebugResources-3 /data/data/com.termux/files/home/MyPerfect/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.perfect.app-merged_res-4 /data/data/com.termux/files/home/MyPerfect/app/build/intermediates/merged_res/debug
+com.example.perfect.app-debug-5 /data/data/com.termux/files/home/MyPerfect/app/src/debug/res
+com.example.perfect.app-main-6 /data/data/com.termux/files/home/MyPerfect/app/src/main/res

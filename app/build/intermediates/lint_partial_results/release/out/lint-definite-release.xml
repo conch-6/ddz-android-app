@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.1.0" type="incidents">
+
+    <incident
+        id="RedundantLabel"
+        severity="warning"
+        message="Redundant label can be removed">
+        <fix-attribute
+            description="Delete label"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="label"/>
+        <location
+            file="${:app*release*sourceProvider*0*manifest*0}"
+            line="16"
+            column="13"
+            startOffset="593"
+            endLine="16"
+            endColumn="45"
+            endOffset="625"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="This folder configuration (`v21`) is unnecessary; `minSdkVersion` is 24. Merge all the resources in this folder into `values`.">
+        <fix-data file="${:app*release*sourceProvider*0*resDir*0}/values-v21" folderName="values" requiresApi="24"/>
+        <location
+            file="${:app*release*sourceProvider*0*resDir*0}/values-v21"/>
+    </incident>
+
+    <incident
+        id="SetJavaScriptEnabled"
+        severity="warning"
+        message="Using `setJavaScriptEnabled` can introduce XSS vulnerabilities into your application, review carefully">
+        <location
+            file="${:app*release*sourceProvider*0*javaDir*0}/com/example/perfect/MainActivity.java"
+            line="39"
+            column="9"
+            startOffset="1201"
+            endLine="39"
+            endColumn="44"
+            endOffset="1236"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`.">
+        <location
+            file="${:app*release*sourceProvider*0*javaDir*0}/com/example/perfect/server/GameServer.java"
+            line="129"
+            column="60"
+            startOffset="4441"
+            endLine="129"
+            endColumn="71"
+            endOffset="4452"/>
+    </incident>
+
+</incidents>
